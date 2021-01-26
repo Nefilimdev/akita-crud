@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Course } from '../course/model/course.model';
+import { Course } from '../model/course.model';
 import { ID, EntityStore, StoreConfig, EntityState } from '@datorama/akita';
 
 export interface CourseState extends EntityState<Course, string> {
