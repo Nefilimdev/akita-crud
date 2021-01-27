@@ -63,7 +63,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "proxyConfig": "proxy.conf.json",
-            "browserTarget": "angular-ngrx-example:build"
+            "browserTarget": "akita-crud-app:build"
           },
           "configurations": {
             "production": {
